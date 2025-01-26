@@ -1,0 +1,44 @@
+.field-worker-tasks {
+    width: 100%;
+    max-width: 600px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.field-worker-tasks h2 {
+    font-size: 1.5rem;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.field-worker-tasks ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.task-item {
+    font-size: 1rem;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task-item.task-in-progress {
+    background-color: #f1c40f;
+    color: #ffffff;
+}
+
+.task-item.task-pending {
+    background-color: #e74c3c;
+    color: #ffffff;
+}
+
+.task-item.task-completed {
+    background-color: #2ecc71;
+    color: #ffffff;
+}
